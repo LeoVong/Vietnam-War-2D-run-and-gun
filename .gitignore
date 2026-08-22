@@ -1,0 +1,34 @@
+# dependencies
+node_modules/
+
+# build
+dist/
+build/
+.output/
+.vercel/
+.nitro/
+
+# env & secrets
+.env
+.env.*
+!.env.example
+
+# caches & platform
+.vite/
+.tanstack/
+.grok/
+.cache/
+
+# logs & OS
+*.log
+.DS_Store
+Thumbs.db
+
+# editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# lock leftovers
+.node_modules.lock
